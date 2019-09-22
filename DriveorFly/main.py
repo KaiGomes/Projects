@@ -16,7 +16,7 @@ for item in body:
 avg_gp = round(sum(list1) / len(list1),2)
 # print(avg_gp)
 
-gmaps = googlemaps.Client(key='AIzaSyBx0PL5f3BC-eQ3BIl4lCMmRPHU-ykGAEg')
+gmaps = googlemaps.Client(key='key')
 
 start = input('Starting location: ')
 end = input('Final Destination: ')
